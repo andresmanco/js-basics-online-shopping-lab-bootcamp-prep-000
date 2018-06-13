@@ -63,6 +63,9 @@ function removeFromCart(item) {
       c = 27;
     }
   }
+  if(c === 0){
+    return
+  }
   return cart;
 }
 
